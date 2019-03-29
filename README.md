@@ -3,4 +3,4 @@ My professor for this class assigns us these scenes we must create and submit to
 
 The directions on what we must create are all the commented out lines on the javascript file when viewing the source.
 
-<a href="https://threejs.org/">THREE.JS website</a>
+<a href="https://threejs.org/" target="_blank">THREE.JS website</a>
