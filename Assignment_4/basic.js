@@ -64,6 +64,7 @@ function init() {
 	var count = 0;
 	function tweenControl(animation_Time) {
 		TWEEN.removeAll;
+		posSrc = { pos: 1 };
 		var tween = new TWEEN.Tween(posSrc).to({ pos: 1.1 }, animation_Time);
 		tween.easing(TWEEN.Easing.Linear.None);
 		tween.onComplete(function(e) {console.log("Complete instance #:" + e)});
